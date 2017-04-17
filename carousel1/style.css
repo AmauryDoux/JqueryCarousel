@@ -1,0 +1,37 @@
+#carousel {
+    border: solid 5px grey;
+    width: 712px;
+    height: 264px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 712px;
+    height: 264px;
+}
+
+img {
+    width: 712px;
+    height: 264px;
+}
+.navigation {
+    position: absolute;
+    bottom: 38px;
+    right: 5px;
+}
+.navigation span {
+    background: black;
+    color: white;
+    padding: 2px 4px;
+    cursor: pointer;
+}
+.navigation span:hover {
+    background: white;
+    color: black;
+
+}
